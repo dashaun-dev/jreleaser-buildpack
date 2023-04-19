@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eo pipefail
 
-for f in *.cob; do
+for f in jreleaser.*; do
   if [ -e "$f" ]; then
     exit 0
   else
